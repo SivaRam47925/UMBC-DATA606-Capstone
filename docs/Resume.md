@@ -51,7 +51,7 @@ CGPA: **8.6 / 10**
 
 ---
 
-## 📊 Projects
+## Projects
 
 ### ICU Mortality Prediction (Capstone Project – In Progress)
 - Building machine learning models to predict patient mortality risk in ICU settings  
