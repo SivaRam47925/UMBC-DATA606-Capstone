@@ -4,7 +4,7 @@
 🔗 GitHub: https://github.com/  
 🔗 LinkedIn: https://linkedin.com/in/  
 
-![Headshot](docs/headshot.jpeg)
+![Headshot](headshot.jpeg)
 
 
 ---
