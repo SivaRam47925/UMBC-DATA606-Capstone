@@ -56,6 +56,7 @@ The dataset used in this project is obtained from Kaggle:
 **WiDS Datathon 2020 ICU Mortality Prediction Dataset**
 
 The original dataset contains approximately **91,713 ICU patient records** and **186 variables**.
+https://www.kaggle.com/competitions/widsdatathon2020/data
 
 Due to GitHub file size limitations, a **20,000-row representative sample** (`training_sample.csv`) is used in this repository for exploratory data analysis.
 
