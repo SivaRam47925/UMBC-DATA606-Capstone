@@ -7,6 +7,9 @@ Instructor: Dr. Chaojie (Jay) Wang
 **Author:**  
 Siva Ram Potluri  
 
+**Semester:**  
+Spring 2026  
+
 **GitHub Repository:**  
 https://github.com/SivaRam47925/UMBC-DATA606-Capstone  
 
@@ -369,24 +372,85 @@ The modeling results show several important patterns:
 
 ---
 
-### Conclusion
 
-- Machine learning models can effectively predict ICU mortality  
-- Combining APACHE and non-APACHE features improves performance  
-- Gradient Boosting provides the best overall predictive capability  
 
-Overall, this project demonstrates the effectiveness of machine learning in supporting clinical decision-making for ICU mortality prediction.
+# 6. Interactive Streamlit Dashboard
+
+A Streamlit dashboard was developed to provide an interactive interface for ICU mortality prediction.
+
+The dashboard allows users to:
+
+- Enter patient clinical values  
+- Generate real-time mortality predictions  
+- Visualize mortality risk probabilities  
+- Compare patient values with dataset distributions  
 
 ---
 
-### Limitations
+## Dashboard Features
 
-One limitation of this study is the presence of missing data and the lack of direct non-APACHE counterparts for some variables.
+The dashboard includes:
+
+- Mortality risk gauge chart  
+- Probability visualizations  
+- Feature distribution analysis  
+- Patient percentile comparisons  
+- Interactive EDA visualizations  
+- Prediction summary metrics  
 
 ---
 
-### Next Steps
+## Streamlit Dashboard Screenshot
 
-- Deploy the model using Streamlit  
-- Finalize presentation materials  
-- Submit the completed project  
+![Streamlit Dashboard](images/dashboard.png)
+
+---
+
+# 7. Conclusion
+
+This project demonstrates that machine learning techniques can effectively predict ICU patient mortality using structured clinical data.
+
+Among all evaluated models, Gradient Boosting with combined APACHE and non-APACHE features achieved the best performance with a ROC-AUC score of **0.8631**.
+
+The developed Streamlit dashboard provides an interpretable and interactive platform for real-time ICU mortality prediction.
+
+Overall, this project highlights the potential of machine learning to support healthcare decision-making and improve ICU patient outcome analysis.
+
+---
+
+# 8. Limitations
+
+This project has several limitations:
+
+- The dataset contains missing values and noisy clinical measurements  
+- ICU mortality is an imbalanced classification problem  
+- Some APACHE variables lacked corresponding non-APACHE matches  
+- The model was trained using historical healthcare data only  
+- Predictions should support clinical decisions rather than replace medical expertise  
+
+---
+
+# 9. Future Research Directions
+
+Future improvements may include:
+
+- Using larger and more diverse ICU datasets  
+- Applying deep learning techniques  
+- Incorporating time-series physiological measurements  
+- Integrating real-time hospital monitoring systems  
+- Improving explainability using SHAP or LIME methods  
+- Expanding Streamlit deployment for clinical environments  
+
+---
+
+# 10. Repository Structure
+
+```text
+UMBC-DATA606-Capstone/
+│
+├── data/
+├── docs/
+├── notebooks/
+├── streamlit_app/
+├── README.md
+└── report.md
