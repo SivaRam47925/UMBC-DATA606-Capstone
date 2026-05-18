@@ -402,7 +402,7 @@ The dashboard includes:
 
 ## Streamlit Dashboard Screenshot
 
-![Streamlit Dashboard](images/dashboard.png)
+![Streamlit Dashboard](docs/Streamlit.png)
 
 ---
 
