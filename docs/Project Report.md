@@ -17,7 +17,7 @@ https://github.com/SivaRam47925/UMBC-DATA606-Capstone
 https://www.linkedin.com/in/siva-ram-potluri-59777b26a  
 
 **PowerPoint Presentation:**  
-ICU_Modern_Final_Presentation.pptx
+docs/ICU_Modern_Final_Presentation.pptx
 
 **YouTube Video Presentation:**  
 https://youtu.be/jgckIwF5dKs
