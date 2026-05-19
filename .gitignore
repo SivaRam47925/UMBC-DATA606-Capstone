@@ -1,0 +1,5 @@
+venv/
+streamlit_app/venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
